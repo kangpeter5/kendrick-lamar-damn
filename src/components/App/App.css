@@ -1,23 +1,9 @@
-h1 {
-  margin: 0;
-  padding: 0;
-  position: absolute;
-  bottom: 20%;
-  left: 50%;
-  color: #fefefe;
-  font-size: 16vmin;
-  text-align: center;
-  text-transform: uppercase;
-  transform: translate3d(-50%, -50%, 0);
-}
-
 h1:hover{
   color:#000;
   -webkit-transition: all .3s ease-in-out;
   -moz-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
 }
-
 .wrap {
   height: 100%;
   position: relative;

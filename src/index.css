@@ -1,20 +1,29 @@
 @import url(https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700);
-
 *,
 *:before,
 *:after {
   box-sizing: border-box;
 }
-
 html,
 body {
   margin: 0;
   padding: 0;
   height: 100%;
 }
-
 body {
   position: relative;
   padding: 20px;
   font-family: 'Libre Baskerville', serif;
+}
+h1 {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  bottom: 20%;
+  left: 50%;
+  color: #fefefe;
+  font-size: 16vmin;
+  text-align: center;
+  text-transform: uppercase;
+  transform: translate3d(-50%, -50%, 0);
 }
