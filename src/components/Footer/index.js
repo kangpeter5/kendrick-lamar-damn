@@ -6,9 +6,9 @@ class Footer extends Component {
   render() {
 
     return (
-    	<div>
+    	<footer>
     		<p>&copy; <a href="http://www.petekang.com/" target="blank">Pete Kang</a> 2017</p>
-		</div>
+		</footer>
     );
   }
 }

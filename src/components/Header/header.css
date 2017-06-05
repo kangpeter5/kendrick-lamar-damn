@@ -1,0 +1,60 @@
+nav {
+    width:500px;
+    display:block;
+    text-align: center;
+    margin: 30px;
+    padding: 5px;
+}
+brandLogo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 15px 50px;
+}
+nav ul{
+    list-style:none;
+    padding:0;
+    display: inline;
+    position: absolute;
+    top: 0;
+    right:0;
+    padding: 25px 100px;
+}
+
+nav ul li {
+    position: relative;
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    display: inline-block;
+    text-decoration:none;
+    font-size: 1.5em;
+    color:rgba(2,2,2,0.5);
+}
+
+nav ul li a:hover {
+    color:rgba(0,168,255,0.5);
+    outline-style: none;
+}
+
+nav ul li ul { position: absolute;
+    left: 0;
+    top: 1em; }
+
+nav ul li ul li {
+    visibility:hidden;
+}
+nav ul li:hover > ul{
+    padding: 10px 0;
+}
+nav ul li:hover > ul li{
+    visibility:visible;
+}
+
+@media only screen and (max-width: 420px) {
+    body {
+        background-color: lightblue;
+    }
+}
