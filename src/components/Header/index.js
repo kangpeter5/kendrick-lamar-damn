@@ -7,18 +7,18 @@ class Header extends Component {
   render() {
     return (
 		<nav>
-			<brandLogo>
-				<a className="home-btn" href="/home"><h2>/home</h2></a>
-			</brandLogo>
+			<div className="brandLogo">
+				<a className="home-btn" href="/home"><h3>/home</h3></a>
+			</div>
 			<ul>
 				<li>
-					<a className="reg-btn" href="/about"><h4>/about</h4></a>
+					<a className="reg-btn" href="/about"><p>/about</p></a>
 				</li>
 				<li>
-					<a className="reg-btn" href="/albums"><h4>/album</h4></a>
+					<a className="reg-btn" href="/albums"><p>/album</p></a>
 					<ul>
 						<li>
-							<a className="reg-btn" href="/albums"><h5>/album</h5></a>
+							<a className="reg-btn" href="/albums"><p>/album</p></a>
 						</li>
 					</ul>
 				</li>
