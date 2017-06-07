@@ -8,7 +8,7 @@ class Albums extends Component {
     return (
 		<div className="album">
 			<div className="album-section">
-				<iframe className="album-yt" width="560" height="315" src="https://www.youtube.com/embed/UW-qcsDLxUY" frameborder="0" allowfullscreen></iframe>
+				<iframe className="album-sp" src="https://open.spotify.com/embed/album/13WjgUEEAQp0d9JqojlWp1" width="560" height="315" frameborder="0" allowtransparency="true"></iframe>
 				<div className="album-desc">
 					<h3>Section.80</h3>
 					<p>Section.80 is the debut studio album by American rapper Kendrick Lamar. It was released on July 2, 2011, by Top Dawg Entertainment. The album features guest appearances from GLC, Colin Munroe, Ashtrobot, BJ the Chicago Kid, Schoolboy Q, Ab-Soul and vocals from late singer-songwriter Alori Joh. The production was mainly handled by Top Dawg in-house producers from production group Digi+Phonics, along with THC, Tommy Black, Wyldfyer, Terrace Martin and J. Cole. The concept album features lyrical themes delivered by Lamar such as the 1980s crack epidemic, racism and medication tolerance. The album's lead single, "HiiiPoWeR" was released on April 12, 2011.</p>
@@ -27,7 +27,7 @@ class Albums extends Component {
 			</div>
 
 			<div className="album-section">
-				<iframe classNAme="album-yt" src="https://open.spotify.com/embed/album/7ycBtnsMtyVbbwTfJwRjSP" width="560" height="315" frameborder="0" allowtransparency="true"></iframe>
+				<iframe classNAme="album-sp" src="https://open.spotify.com/embed/album/7ycBtnsMtyVbbwTfJwRjSP" width="560" height="315" frameborder="0" allowtransparency="true"></iframe>
 				<div className="album-desc">
 					<h3>To Pimp a Butterfly</h3>
 					<p>To Pimp a Butterfly is the third studio album by King Kendrick. It was released on March 15, 2015, by Top Dawg Entertainment, Aftermath Entertainment and Interscope Records. The album incorporates elements of free jazz, funk, soul, spoken word, and the avant-garde and explores a variety of political and personal themes concerning African-American culture, racial inequality, depression, and institutional discrimination. It debuted atop the Billboard 200 and received widespread acclaim from critics, who praised its musical scope and the social relevance of Lamar's lyrics. It was ranked as the best album of 2015 by many publications, including Rolling Stone, Billboard and Pitchfork. It was nominated for Album of the Year and won Best Rap Album at the 58th Grammy Awards.
