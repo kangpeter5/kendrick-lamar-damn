@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import {Grid} from 'react-bootstrap/lib';
 import Header from '../Header';
 import Footer from '../Footer';
 import Albums from '../Albums';
@@ -9,11 +10,11 @@ class Home extends Component {
   render() {
 
     return (
-    	<div className="container-fluid">
+		<Grid className="fluid">
     		<Header />
     		<Albums />
     		<Footer />
-    	</div>
+		</Grid>
     );
   }
 }

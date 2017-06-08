@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import { Row, Col, Button } from 'react-bootstrap/lib';
+import { Grid, Row, Col, Button } from 'react-bootstrap/lib';
 import './album.css';
 
 class Albums extends Component {
 
   render() {
     return (
-		<div className="album">
+		<Grid className="fluid album">
 			<Row className="album-section">
 				<Col xs={12} md={6}>
 					<div className="album-desc">
@@ -38,8 +38,7 @@ class Albums extends Component {
 				<Col xs={12} md={6}>
 					<div className="album-desc">
 						<h3>To Pimp a Butterfly</h3>
-						<p>To Pimp a Butterfly is the third studio album by King Kendrick. It was released on March 15, 2015, by Top Dawg Entertainment, Aftermath Entertainment and Interscope Records. The album incorporates elements of free jazz, funk, soul, spoken word, and the avant-garde and explores a variety of political and personal themes concerning African-American culture, racial inequality, depression, and institutional discrimination. It debuted atop the Billboard 200 and received widespread acclaim from critics, who praised its musical scope and the social relevance of Lamar's lyrics. It was ranked as the best album of 2015 by many publications, including Rolling Stone, Billboard and Pitchfork. It was nominated for Album of the Year and won Best Rap Album at the 58th Grammy Awards.
-						<Button className="reference-link" href="https://en.wikipedia.org/wiki/Damn_(Kendrick_Lamar_album)">Reference</Button></p>
+						<p>To Pimp a Butterfly is the third studio album by King Kendrick. It was released on March 15, 2015, by Top Dawg Entertainment, Aftermath Entertainment and Interscope Records. The album incorporates elements of free jazz, funk, soul, spoken word, and the avant-garde and explores a variety of political and personal themes concerning African-American culture, racial inequality, depression, and institutional discrimination. It debuted atop the Billboard 200 and received widespread acclaim from critics, who praised its musical scope and the social relevance of Lamar's lyrics. It was ranked as the best album of 2015 by many publications, including Rolling Stone, Billboard and Pitchfork. It was nominated for Album of the Year and won Best Rap Album at the 58th Grammy Awards.</p>
 						<Button href="http://pitchfork.com/reviews/albums/20390-to-pimp-a-butterfly/">Pitchfork</Button>
 						<Button href="http://www.xxlmag.com/news/2017/01/kendrick-lamars-to-pimp-a-butterfly-archived-harvard-library/">XXL</Button>
 					</div>
@@ -55,14 +54,13 @@ class Albums extends Component {
 				<Col xs={12} md={6}>
 					<div className="album-desc">
 						<h3>Damn</h3>
-						<p>Damn received widespread acclaim from critics. At Metacritic, which assigns a normalized rating out of 100 to reviews from mainstream publications, the album received an average score of 96, based on 37 reviews. Andy Kellman of AllMusic stated that "It contains some of Lamar's best writing and performances, revealing his evolving complexity and versatility as a soul-baring lyricist and dynamic rapper." Writing for The A.V. Club, Evan Rytlewski concluded, "Lamar trusts every idea to stand on its own. When you're making art this substantial, vital, and virtuosic, there's no need to wrap a tidy bow around it." In his review, Greg Kot of Chicago Tribute states, "Damn. strips down the rhythms to their essence, flavored with the occasional cameo (notably Rihanna and U2). Lamar's voice does most of the heavy lifting, playing multiple roles and characters. His supple singing complements a variety of rap tones and textures."
-						<Button className="reference-link" href="https://en.wikipedia.org/wiki/Damn_(Kendrick_Lamar_album)">Reference</Button></p>
+						<p>Damn received widespread acclaim from critics. At Metacritic, which assigns a normalized rating out of 100 to reviews from mainstream publications, the album received an average score of 96, based on 37 reviews. Andy Kellman of AllMusic stated that "It contains some of Lamar's best writing and performances, revealing his evolving complexity and versatility as a soul-baring lyricist and dynamic rapper." Writing for The A.V. Club, Evan Rytlewski concluded, "Lamar trusts every idea to stand on its own. When you're making art this substantial, vital, and virtuosic, there's no need to wrap a tidy bow around it." In his review, Greg Kot of Chicago Tribute states, "Damn. strips down the rhythms to their essence, flavored with the occasional cameo (notably Rihanna and U2). Lamar's voice does most of the heavy lifting, playing multiple roles and characters. His supple singing complements a variety of rap tones and textures."</p>
 						<Button href="http://pitchfork.com/reviews/albums/23147-damn/">Pitchfork</Button>
 						<Button href="http://www.xxlmag.com/rap-music/reviews/2017/04/kendrick-lamar-damn-album-review/">XXL</Button>
 					</div>
 				</Col>
 			</Row>
-		</div>
+		</Grid>
     );
   }
 }
