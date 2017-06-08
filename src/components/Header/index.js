@@ -13,13 +13,14 @@ const NavbarInstance = (
     <Navbar.Collapse>
       <Nav pullRight>
         <NavItem eventKey={1} href="/home">/home</NavItem>
-        <NavItem eventKey={2} href="#">about</NavItem>
-        <NavDropdown eventKey={3} title="albums" id="basic-nav-dropdown">
-			<MenuItem eventKey={3.1}>Section.80</MenuItem>
-			<MenuItem eventKey={3.2}>Good Kid, M.A.A.D. City</MenuItem>
-			<MenuItem eventKey={3.3}>To Pimp a Butterfly</MenuItem>
-			<MenuItem divider />
-			<MenuItem eventKey={3.3}>DAMN.</MenuItem>
+        <NavItem eventKey={2} href="#">/about</NavItem>
+        <NavItem eventKey={3} href="https://dribbble.com/shots/3550308-DAMN/attachments/789463">/art</NavItem>
+        <NavDropdown eventKey={4} title="/albums" id="basic-nav-dropdown">
+    			<MenuItem eventKey={4.1}>Section.80</MenuItem>
+    			<MenuItem eventKey={4.2}>Good Kid, M.A.A.D. City</MenuItem>
+    			<MenuItem eventKey={4.3}>To Pimp a Butterfly</MenuItem>
+    			<MenuItem divider />
+    			<MenuItem eventKey={4.3}>DAMN.</MenuItem>
         </NavDropdown>
       </Nav>
     </Navbar.Collapse>
