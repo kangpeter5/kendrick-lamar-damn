@@ -1,6 +1,3 @@
-.album {
-
-}
 .album-section {
 	display: inline-block;
 	margin-left: auto;
@@ -10,8 +7,24 @@
 	display: inline-block;
 }
 .album-desc{
-
+	word-wrap: break-word;
+}
+.album-desc .btn.btn-default{
+	background: none;
+	border: none;
+	text-shadow: none;
+	box-shadow: none;
+}
+.album-desc .btn.btn-default:hover{
+	word-wrap: break-word;
 }
 .album-sp {
-	
+	width: 100%;
+	min-height: 300px;
+	height: auto;
+}
+.album-yt {
+	width: 100%;
+	min-height: 300px;
+	height: auto;
 }
