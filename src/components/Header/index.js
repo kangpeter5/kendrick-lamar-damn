@@ -32,7 +32,6 @@ class Header extends Component {
               <MenuItem eventKey={4.1}>Section.80</MenuItem>
               <MenuItem eventKey={4.2}>Good Kid, M.A.A.D. City</MenuItem>
               <MenuItem eventKey={4.3}>To Pimp a Butterfly</MenuItem>
-              <MenuItem divider />
               <MenuItem eventKey={4.3}>DAMN.</MenuItem>
             </NavDropdown>
           </Nav>

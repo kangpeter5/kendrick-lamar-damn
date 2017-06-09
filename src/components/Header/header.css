@@ -5,13 +5,19 @@ nav.navbar {
 .navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav>li>a {
     text-shadow: none;
 }
+.dropdown-menu{
+	display: block;
+	z-index: -1;
+	opacity: 0;
+}
 .dropdown:hover,
 .dropdown:hover #basic-nav-dropdown,
 .dropdown:hover .dropdown-menu {
 	color:#000;
     background: #fff;
-    display: block;
     border: none;
+    z-index: 1;
+    opacity: 1;
 	-webkit-transition: all .3s ease-in-out;
 	-moz-transition: all .3s ease-in-out;
 	transition: all .3s ease-in-out;
