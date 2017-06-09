@@ -16,6 +16,9 @@ h1:hover{
   -moz-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
 }
+body{
+    padding: 50px!important;
+}
 .wrap {
   height: 100%;
   position: relative;

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Navbar, Nav, NavItem, NavDropdown, MenuItem } from 'react-bootstrap/lib';
+import About from '../About';
 import './header.css';
 
 const NavbarInstance = (
@@ -13,7 +14,7 @@ const NavbarInstance = (
     <Navbar.Collapse>
       <Nav pullRight>
         <NavItem eventKey={1} href="/home">/home</NavItem>
-        <NavItem eventKey={2} href="#">/about</NavItem>
+        <NavItem eventKey={About} href="#">/about</NavItem>
         <NavItem eventKey={3} href="https://dribbble.com/shots/3550308-DAMN/attachments/789463">/art</NavItem>
         <NavDropdown eventKey={4} title="/albums" id="basic-nav-dropdown">
     			<MenuItem eventKey={4.1}>Section.80</MenuItem>
