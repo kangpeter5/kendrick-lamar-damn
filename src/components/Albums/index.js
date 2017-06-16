@@ -21,10 +21,10 @@ class Albums extends Component {
 				</Col>
 			</Row>
 			<Row className="album-section">
-				<Col xs={12} md={6}>
+				<Col xs={12} mdPull={6}>
 					<iframe className="album-yt" src="https://www.youtube.com/embed/GF8aaTu2kg0?list=PLqZcp8_6M275I4Cu0yreysTw9R9ZyZNGr" frameBorder="0" allowFullScreen></iframe>
 				</Col>
-				<Col xs={12} md={6}>
+				<Col xs={12} mdPush={6}>
 					<div className="album-desc">
 						<h3>Good Kid, M.A.A.D City</h3>
 						<p>The second studio album by KDot debuted at number two on the Billboard 200 chart, selling 242,000 copies in its first week – earning the highest first-week hip hop album sales of 2012 from a male artist, along with the best-selling debut from a male artist of the year. It became Lamar's first album to enter the UK Albums Chart, peaking at number 16, and entering the UK R&B Albums Chart at number two. The album was also named to many end-of-the-year lists, often topping them. It was later certified Platinum by the Recording Industry Association of America (RIAA) in August 2013. By March 2015, the album had sold 1,400,000 copies domestically, according to Nielsen SoundScan.</p>
@@ -48,10 +48,10 @@ class Albums extends Component {
 				</Col>
 			</Row>
 			<Row className="album-section">
-				<Col xs={12} md={6}>
+				<Col xs={12} mdPush={6}>
 					<iframe className="album-yt" src="https://www.youtube.com/embed/NLZRYQMLDW4?list=PLxKHVMqMZqUTMHeEmiAn8uylx3W_u8KI5" frameBorder="0" allowFullScreen></iframe>
 				</Col>
-				<Col xs={12} md={6}>
+				<Col xs={12} mdPull={6}>
 					<div className="album-desc">
 						<h3>Damn</h3>
 						<p>Damn received widespread acclaim from critics. At Metacritic, which assigns a normalized rating out of 100 to reviews from mainstream publications, the album received an average score of 96, based on 37 reviews. Writing for The A.V. Club, Evan Rytlewski concluded, "Lamar trusts every idea to stand on its own. When you're making art this substantial, vital, and virtuosic, there's no need to wrap a tidy bow around it." In his review, Greg Kot of Chicago Tribute states, "Damn. strips down the rhythms to their essence, flavored with the occasional cameo (notably Rihanna and U2). Lamar's voice does most of the heavy lifting, playing multiple roles and characters. His supple singing complements a variety of rap tones and textures."</p>

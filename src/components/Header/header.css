@@ -5,6 +5,12 @@ nav.navbar {
 .navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav>li>a {
     text-shadow: none;
 }
+.navbar-inverse .navbar-nav>.open>a:focus {
+    background-color: transparent;
+    background-image: none;
+    box-shadow: none;
+    border: none;
+}
 .dropdown-menu{
 	display: block;
 	z-index: -1;
