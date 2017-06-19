@@ -6,7 +6,7 @@ class Albums extends Component {
 
   render() {
     return (
-		<Grid className="fluid album">
+		<Grid className="album">
 			<Row className="album-section">
 				<Col xs={12} md={6}>
 					<div className="album-desc">

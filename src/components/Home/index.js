@@ -13,7 +13,6 @@ class Home extends Component {
     return (
 		<Grid className="fluid">
     		<Header />
-    		
     		<Albums />
     		<Footer />
 		</Grid>
