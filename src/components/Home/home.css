@@ -1,17 +1,9 @@
 html, body{
   height: 100%;
 }
-body{ 
-/*	background-image: url("https://s3-us-west-2.amazonaws.com/kendrickdamnproject/background-home.jpg");
-	background-position: center center;
-	background-repeat:  no-repeat;
-	background-attachment: fixed;
-	background-size:  cover;*/
-	background-color: #302F2D;
-	padding: 0!important;
-}
 *, body{
-	margin: 0;
+	margin: auto;
+	padding: auto;
 	font-family: 'Cousine', monospace;
 	font-family: 'Slabo 27px', serif;
 }
