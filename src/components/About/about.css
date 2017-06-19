@@ -1,0 +1,29 @@
+.about-section h2,
+.about-section p{
+	color: #ffffff;
+}
+.about-section h2{
+	text-align: center;
+}
+.about {
+	margin: 50px auto;
+	margin-right: 0;
+	margin-left: 0;
+	padding: 0;
+}
+.about-section {
+	margin-left: 0;
+	margin-right: 0;
+	width: 100%;
+}
+.about-desc,
+.about-image {
+	padding-left: 50px;
+	padding-right: 50px;
+}
+.about-image{
+	margin-left: auto;
+	margin-right: auto;
+	height: auto;
+	width: 100%;
+}

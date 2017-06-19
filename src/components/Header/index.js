@@ -6,7 +6,7 @@ import {
   NavDropdown,
   MenuItem 
   } from 'react-bootstrap/lib';
-// import About from '../About';
+import About from '../About';
 import './header.css';
 
 class Header extends Component {
@@ -22,7 +22,7 @@ class Header extends Component {
         <Navbar.Collapse>
           <Nav pullRight>
             <NavItem eventKey={1} href="/home">/home</NavItem>
-            <NavItem eventKey={2} href="#">/about</NavItem>
+            <NavItem eventKey={2} href="/home/about">/about</NavItem>
             <NavItem eventKey={3} href="https://dribbble.com/shots/3550308-DAMN/attachments/789463">/art</NavItem>
             <NavDropdown 
               eventKey={4}
