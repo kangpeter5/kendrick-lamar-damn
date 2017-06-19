@@ -9,3 +9,8 @@ html, body{
 h2{
 	color:#000;
 }
+@media only screen and (max-width: 1204px) {
+	.container {
+		/*width: 970px;*/
+	}
+}
