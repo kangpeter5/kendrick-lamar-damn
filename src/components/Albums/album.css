@@ -24,6 +24,82 @@ body{
 h3{
 	margin-top: 0;
 }
+a {
+	text-decoration: none;
+}
+
+/* Button */
+.center-btn {
+	text-align: center;
+}
+.btn.cta-main .cta-text {
+	position: relative;
+	z-index: 1;
+}
+.cta-wrap {
+	text-align: center;
+}
+.btn.cta-main {
+	position: relative;  
+	text-decoration: none;
+	padding: 10px 30px;
+	margin: 10px;
+	display: inline-block;
+	border: 1px solid #fff;
+	color: #fff;
+	overflow: hidden;
+	border-radius: 0;
+	-webkit-transition: all.3s ease-in-out;
+	transition: all.3s ease-in-out;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+}
+.btn.cta-main:before {
+	content: '';
+	position: absolute;
+	display: block;
+	width: 0;
+	height: 0;
+	border-top: 35px solid transparent!important;
+	border-bottom: 35px solid transparent!important;
+	border-left: 35px solid #fff;
+	right: 0;
+	bottom: 0;
+	-ms-transform: rotate(45deg) translateX(42px) translateY(15px);
+	-webkit-transform: rotate(45deg) translateX(42px) translateY(15px);
+	transform: rotate(45deg) translateX(42px) translateY(15px);
+}
+.btn.cta-main:after {
+	content: '';
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	background: #fff;
+	-webkit-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+	transform-origin: left;
+	transform: skewX(-45deg) translateX(120%) scaleX(2);
+	transform: skewX(-45deg) translateX(120%) scaleX(2);
+	transform: skewX(-45deg) translateX(120%) scaleX(2);
+}
+.btn.cta-main:hover {
+	-webkit-transition: all.3s ease-in-out;
+	transition: all.3s ease-in-out;
+	color: #000!important;
+}
+.btn.cta-main:hover:after {
+	-webkit-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+	-ms-transform: skewX(-40deg) translateX(-40%) scaleX(2);
+	-webkit-transform: skewX(-40deg) translateX(-40%) scaleX(2);
+	transform: skewX(-40deg) translateX(-40%) scaleX(2);
+}
+/* END button */
+
 .album-section {
 	display: inline-block;
 	top:0;
@@ -35,38 +111,23 @@ h3{
 	word-wrap: break-word;
 	padding: 2em;
 }
+.album-desc:hover{
+	border: 2px solid #fff;
+	-webkit-transition: all ease-in-out;
+	transition: all ease-in-out;
+}
 .album-desc,
-.btn.btn-default{
+.btn {
 	color: #fff;
-}
-.center-btn {
-	text-align: center;
-}
-.album-desc .btn.btn-default{
-	display: inline-block;
-	padding: 10px 30px;
-	margin: 0 auto;
-	max-width: 150px;
-	background: none;
-	border: none;
-	text-shadow: none;
-	box-shadow: none;
-}
-.album-desc .btn.btn-default:hover{
-	background-color: #fefefe;
-	-webkit-transition: all .4s ease-in-out;
-	-moz-transition: all .4s ease-in-out;
-	transition: all .4s ease-in-out;
-	color: #000000;
 }
 .album-sp {
 	width: 100%;
-	min-height: 300px;
+	min-height: 330px;
 	height: 100%;
 }
 .album-yt {
 	width: 100%;
-	min-height: 300px;
+	min-height: 330px;
 	height: 100%;
 }
 @media only screen and (max-width: 768px) {
@@ -83,23 +144,16 @@ h3{
 		padding: 0;
 	}
 	h3,
-	p,
-	.center-btn{
+	p {
 		text-align: center;
 		text-shadow: 1px 1px #8c8c8c;
 	}
-	h3{
+	h3 {
 		font-style: italic;
 	}
-	p{
+	p {
 		font-size: 20px;
 		padding-left: 5px;
 		padding-right: 5px;
-	}
-	.center-btn .btn.btn-default{
-		display: block;
-		padding: 25px;
-		margin: 10px auto;
-		border: 2px solid white;
 	}
 }

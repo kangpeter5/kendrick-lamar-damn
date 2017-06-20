@@ -18,9 +18,18 @@
 	padding-right: 50px;
 	margin: 10px auto;
 }
+.about-image {
+	border: 2px solid white;
+    padding: 10px;
+}
 .kdot-img {
 	width: auto;
 	max-height: 450px;
+}
+.kdot-img:hover{
+	filter:sepia(100%);
+	-webkit-transition: all.2s ease-in-out;
+	transition: all.2s ease-in-out;
 }
 @media only screen and (max-width: 1204px) {
 	.about-image{
@@ -35,5 +44,11 @@
 	.about-desc{
 		margin-top: 30px;
 		margin-bottom: 10px;
+	}
+}
+@media only screen and (max-width: 992px) {
+	.about {
+		margin-top: 0;
+		margin-bottom: 100px;
 	}
 }
