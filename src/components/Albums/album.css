@@ -82,8 +82,8 @@ a {
 	-webkit-transition: all .3s ease-in-out;
 	transition: all .3s ease-in-out;
 	transform-origin: left;
-	transform: skewX(-45deg) translateX(120%) scaleX(2);
-	transform: skewX(-45deg) translateX(120%) scaleX(2);
+	-webkit-transform: skewX(-45deg) translateX(120%) scaleX(2);
+	-ms-transform: skewX(-45deg) translateX(120%) scaleX(2);
 	transform: skewX(-45deg) translateX(120%) scaleX(2);
 }
 .btn.cta-main:hover {
