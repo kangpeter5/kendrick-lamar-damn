@@ -1,52 +1,39 @@
-.about-section h2,
 .about-section p {
 	color: #ffffff;
 }
-.name-bold {
+.name-change {
 	font-style: italic;
     text-shadow: none;
-    font-size: 20px;
+    font-size: 22px;
     outline-style: none;
     text-decoration: none;
 }
-.about-section h2 {
-	text-align: center;
-}
 .about {
-	margin: 50px auto;
+	margin-top: 100px;
+	margin-bottom: 200px;
 	padding: 0;
-}
-.about-section {
-	/*width: 100%;*/
 }
 .about-desc {
 	padding-left: 50px;
 	padding-right: 50px;
 	margin: 10px auto;
 }
-.about-image {
-	display: flex;
-	justify-content: center;
-	margin: auto 50px;
-	max-height: 600px;
-	height: 100%;
-	width: auto;
-}
 .kdot-img {
 	width: auto;
-	max-height: 600px;
+	max-height: 450px;
 }
-.about-section .image-wrap{
-	overflow: hidden;
+@media only screen and (max-width: 1204px) {
+	.about-image{
+		margin: 10px auto;
+	}
+	.kdot-img{
+		max-height: 500px;
+	}
 }
 @media only screen and (max-width: 992px) {
+	.about-image,
 	.about-desc{
 		margin-top: 30px;
 		margin-bottom: 10px;
-	}
-}
-@media only screen and (max-width: 600px) {
-	.about-image{
-
 	}
 }

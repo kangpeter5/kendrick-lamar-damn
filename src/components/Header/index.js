@@ -22,14 +22,14 @@ class Header extends Component {
         <Navbar.Collapse>
           <Nav pullRight>
             <NavItem eventKey={1} href="/home">/home</NavItem>
-            <NavItem eventKey={2} href="/home/about">/about</NavItem>
+            <NavItem eventKey={2} href="#aboutMe">/about</NavItem>
             <NavItem eventKey={3} href="https://dribbble.com/shots/3550308-DAMN/attachments/789463">/art</NavItem>
             <NavDropdown 
               eventKey={4}
               title="/albums"
               id="basic-nav-dropdown"
             >
-              <MenuItem eventKey={4.1}>Section.80</MenuItem>
+              <MenuItem eventKey={4.1} href="#section80">Section.80</MenuItem>
               <MenuItem eventKey={4.2}>Good Kid, M.A.A.D. City</MenuItem>
               <MenuItem eventKey={4.3}>To Pimp a Butterfly</MenuItem>
               <MenuItem eventKey={4.3}>DAMN.</MenuItem>
