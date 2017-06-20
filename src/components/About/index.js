@@ -9,7 +9,12 @@ class About extends Component {
     	<Grid className="about">
     		<Row className="about-section">
     			<h2>About</h2>
-    			<Col xs={12} md={6}>
+    			<Col Col md={6} mdPush={6}>
+    				<div className="about-image">
+			          <img className="kdot-img" src="https://s3-us-west-2.amazonaws.com/kendrickdamnproject/kendrick+lamar+damn/about-kendrick.jpg" alt="#" />
+			        </div>
+    			</Col>
+    			<Col Col md={6} mdPull={6}>
     				<div className="about-desc">
 						<p><span className="name-bold">Kendrick Lamar Duckworth</span> (born June 17, 1987) is an American rapper and songwriter. Born and raised in Compton, California, he embarked on his musical career as a teenager under the stage name K-Dot, releasing a mixtape that garnered local attention and led to his signing with indie record label Top Dawg Entertainment (TDE). He began to gain recognition in 2010, after his first retail release, Overly Dedicated. The following year, Lamar independently released his first studio album, Section.80, which included his debut single, "HiiiPoWeR". By that time, he had amassed a large Internet following and collaborated with several prominent artists in the hip hop industry, including The Game, Busta Rhymes and Snoop Dogg.
 							<br />
@@ -18,12 +23,7 @@ class About extends Component {
 							<br />
 							<br />
 						Lamar has received a number of accolades over the course of his career, including seven Grammy Awards. In early 2013, MTV named Lamar the number one "Hottest MC in the Game", on their annual list. Time named Lamar one of the 100 most influential people in the world in 2016. Aside from his solo career, Lamar is also known as a member of the West Coast hip hop supergroup Black Hippy, alongside his TDE label-mates and fellow South Los Angeles-based rappers Ab-Soul, Jay Rock and Schoolboy Q.</p>
-						</div>
-    			</Col>
-    			<Col xs={12} md={6}>
-    				<div className="about-image image-wrap">
-			          <img className="kdot-img" src="http://runthetrap.com/wp-content/uploads/2017/03/kendrick.jpg" alt="#" />
-			        </div>
+					</div>
     			</Col>
     		</Row>
     	</Grid>

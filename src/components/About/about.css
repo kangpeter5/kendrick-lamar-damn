@@ -1,42 +1,52 @@
 .about-section h2,
-.about-section p{
+.about-section p {
 	color: #ffffff;
 }
-.name-bold{
+.name-bold {
 	font-style: italic;
     text-shadow: none;
     font-size: 20px;
     outline-style: none;
     text-decoration: none;
 }
-.about-section h2{
+.about-section h2 {
 	text-align: center;
 }
 .about {
 	margin: 50px auto;
-	margin-right: 0;
-	margin-left: 0;
 	padding: 0;
 }
 .about-section {
-	margin-left: 0;
-	margin-right: 0;
-	width: 100%;
+	/*width: 100%;*/
 }
-.about-desc,
-.about-image {
+.about-desc {
 	padding-left: 50px;
 	padding-right: 50px;
 	margin: 10px auto;
 }
-.kdot-img{
-	display: block;
+.about-image {
+	display: flex;
+	justify-content: center;
+	margin: auto 50px;
 	max-height: 600px;
 	height: 100%;
-	position: inherit;
-	right: 50%;
+	width: auto;
+}
+.kdot-img {
+	width: auto;
+	max-height: 600px;
 }
 .about-section .image-wrap{
-	position: relative;
 	overflow: hidden;
+}
+@media only screen and (max-width: 992px) {
+	.about-desc{
+		margin-top: 30px;
+		margin-bottom: 10px;
+	}
+}
+@media only screen and (max-width: 600px) {
+	.about-image{
+
+	}
 }
