@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
-import { Grid, Row, Col, Button } from 'react-bootstrap/lib';
+import { Grid, Row, Col } from 'react-bootstrap/lib';
 import './album.css';
 
 class Albums extends Component {
 
   render() {
     return (
-		<Grid className="album">
-			<Row className="album-section">
+		<Grid className="album" id="albumTop">
+			<Row className="album-section" id="section80">
 				<Col xs={12} md={6}>
-					<div className="album-desc" id="section80">
+					<div className="album-desc">
 						<h3>Section.80</h3>
 						<p>Section.80 is the debut studio album by American rapper Kendrick Lamar. It was released on July 2, 2011, by Top Dawg Entertainment. The album features guest appearances from GLC, Colin Munroe, Ashtrobot, BJ the Chicago Kid, Schoolboy Q, Ab-Soul and vocals from late singer-songwriter Alori Joh. The production was mainly handled by Top Dawg in-house producers from production group Digi+Phonics, along with THC, Tommy Black, Wyldfyer, Terrace Martin and J. Cole. The concept album features lyrical themes delivered by Lamar such as the 1980s crack epidemic, racism and medication tolerance. The album's lead single, "HiiiPoWeR" was released on April 12, 2011.</p>
 						<div className="center-btn">
@@ -28,7 +28,7 @@ class Albums extends Component {
 					<iframe className="album-sp" src="https://open.spotify.com/embed/album/13WjgUEEAQp0d9JqojlWp1" frameBorder="0" allowTransparency="true"></iframe>
 				</Col>
 			</Row>
-			<Row className="album-section">
+			<Row className="album-section" id="madd">
 				<Col md={6} mdPush={6}>
 					<div className="album-desc">
 						<h3>Good Kid, M.A.A.D City</h3>
@@ -50,7 +50,7 @@ class Albums extends Component {
 				</Col>
 			</Row>
 
-			<Row className="album-section">
+			<Row className="album-section" id="pimp">
 				<Col xs={12} md={6}>
 					<div className="album-desc">
 						<h3>To Pimp a Butterfly</h3>
@@ -71,11 +71,11 @@ class Albums extends Component {
 					<iframe className="album-sp" src="https://open.spotify.com/embed/album/7ycBtnsMtyVbbwTfJwRjSP" frameBorder="0" allowTransparency="true"></iframe>
 				</Col>
 			</Row>
-			<Row className="album-section">
+			<Row className="album-section" id="damn">
 				<Col md={6} mdPush={6}>
 					<div className="album-desc">
 						<h3>Damn</h3>
-						<p>Damn received widespread acclaim from critics. At Metacritic, which assigns a normalized rating out of 100 to reviews from mainstream publications, the album received an average score of 96, based on 37 reviews. Writing for The A.V. Club, Evan Rytlewski concluded, "Lamar trusts every idea to stand on its own. When you're making art this substantial, vital, and virtuosic, there's no need to wrap a tidy bow around it." In his review, Greg Kot of Chicago Tribute states, "Damn. strips down the rhythms to their essence, flavored with the occasional cameo (notably Rihanna and U2). Lamar's voice does most of the heavy lifting, playing multiple roles and characters. His supple singing complements a variety of rap tones and textures."</p>
+						<p>Damn received widespread acclaim from critics. At Metacritic, which assigns a normalized rating out of 100 to reviews from mainstream publications, the album received an average score of 96, based on 37 reviews. Writing for The A.V. Club, Evan Rytlewski concluded, "Lamar trusts every idea to stand on its own. When you're making art this substantial, vital, and virtuosic, there's no need to wrap a tidy bow around it." In his review, Greg Kot of Chicago Tribute states, "Damn. strips down the rhythms to their essence, flavored with the occasional cameo. Lamar's voice does most of the heavy lifting, playing multiple roles and characters. His supple singing complements a variety of rap tones and textures."</p>
 						<div className="center-btn">
 							<div className="cta-wrap">
 								<a href="http://pitchfork.com/reviews/albums/23147-damn/" className="btn cta-main">

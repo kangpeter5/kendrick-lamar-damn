@@ -49,8 +49,8 @@ a {
 	color: #fff;
 	overflow: hidden;
 	border-radius: 0;
-	-webkit-transition: all.3s ease-in-out;
-	transition: all.3s ease-in-out;
+	-webkit-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
 	display: inline-flex;
 	justify-content: center;
 	align-items: center;
@@ -111,26 +111,32 @@ a {
 	word-wrap: break-word;
 	padding: 2em;
 }
-.album-desc:hover{
+.album-desc:after {
+	content: '';
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+}
+.album-desc:hover:after{
 	border: 2px solid #fff;
-	-webkit-transition: all ease-in-out;
-	transition: all ease-in-out;
+	background-color: rgba(224, 224, 224, 0.3);
+	-webkit-transition:all .2s ease-in-out;
+	transition: all .2s ease-in-out;
 }
 .album-desc,
 .btn {
 	color: #fff;
 }
-.album-sp {
-	width: 100%;
-	min-height: 330px;
-	height: 100%;
-}
+.album-sp,
 .album-yt {
 	width: 100%;
-	min-height: 330px;
+	min-height: 325px;
 	height: 100%;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 992px) {
 	.col-md-6, .col-xs-12, p{
 		margin-bottom: 0;
 	}

@@ -25,6 +25,13 @@ class About extends Component {
 					</div>
     			</Col>
     		</Row>
+            <Row className="is-flex about-section">
+                <Col md={12}>
+                    <div className="scroll-btn">
+                        <a href="#albumTop"><span></span>Scroll</a>
+                    </div>
+                </Col>
+            </Row>
     	</Grid>
     	
     );
