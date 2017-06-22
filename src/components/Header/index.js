@@ -6,7 +6,6 @@ import {
   NavDropdown,
   MenuItem 
   } from 'react-bootstrap/lib';
-import About from '../About';
 import './header.css';
 
 class Header extends Component {
@@ -15,7 +14,7 @@ class Header extends Component {
 		  <Navbar inverse collapseOnSelect>
         <Navbar.Header>
           <Navbar.Brand>
-            <a href="/"><img src="https://s3-us-west-2.amazonaws.com/kendrickdamnproject/kendrick+lamar+damn/kdot-icon.png"/></a>
+            <a href="/"><img src="https://s3-us-west-2.amazonaws.com/kendrickdamnproject/kendrick+lamar+damn/kdot-icon.png" alt="#"/></a>
           </Navbar.Brand>
         </Navbar.Header>
         <Navbar.Collapse>

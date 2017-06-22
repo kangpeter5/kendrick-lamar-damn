@@ -21,6 +21,10 @@ body{
 	padding: 0;
 	margin-bottom: -12px;
 }
+h2{
+	text-align: center;
+	margin: 0 auto 50px;
+}
 h3{
 	margin-top: 0;
 }
