@@ -2,6 +2,21 @@ nav.navbar {
     background: none;
     border: none;
 }
+.navbar-brand{
+    position: relative;
+}
+.navbar-brand img{
+    width: 50px;
+    border-radius: 50%;
+}
+.navbar-brand img:hover{
+    position: absolute;
+    display: block;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    -webkit-transition: all .2s ease-in-out;;
+    transition: all .2s ease-in-out;
+}
 .navbar-inverse .navbar-brand,
 .navbar-inverse .navbar-nav>li>a {
     text-shadow: none;

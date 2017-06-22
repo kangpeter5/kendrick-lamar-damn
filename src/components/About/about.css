@@ -123,19 +123,20 @@
 	}
 }
 @media only screen and (max-width: 992px) {
+	.about {
+		margin-top: 0;
+		margin-bottom: 100px;
+		height: auto;
+	}
 	.about-image,
 	.about-desc{
 		margin-top: 30px;
 		margin-bottom: 10px;
 	}
+	.about-desc{
+		padding: 0 50px;
+	}
 	.scroll-btn a{
 		left: 15%;
-	}
-}
-@media only screen and (max-width: 992px) {
-	.about {
-		margin-top: 0;
-		margin-bottom: 100px;
-		height: auto;
 	}
 }
