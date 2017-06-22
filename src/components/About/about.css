@@ -54,7 +54,7 @@
 .scroll-btn a {
 	position: absolute;
 	bottom: 0;
-	left: 50%;
+	left: 47%;
 	z-index: 2;
 	display: inline-block;
 	-webkit-transform: translate(0, -50%);
@@ -71,7 +71,7 @@
 .scroll-btn a span {
 	position: absolute;
 	top: 20px;
-	left: 48%;
+	left: 50%;
 	width: 24px;
 	height: 24px;
 	margin-left: -12px;

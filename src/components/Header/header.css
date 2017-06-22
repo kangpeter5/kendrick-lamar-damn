@@ -2,7 +2,8 @@ nav.navbar {
     background: none;
     border: none;
 }
-.navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav>li>a {
+.navbar-inverse .navbar-brand,
+.navbar-inverse .navbar-nav>li>a {
     text-shadow: none;
 }
 .navbar-inverse .navbar-nav>.open>a:focus {
