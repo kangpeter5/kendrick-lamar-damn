@@ -16,6 +16,7 @@ class Header extends Component {
           <Navbar.Brand>
             <a href="/">KDOT</a>
           </Navbar.Brand>
+          <Navbar.Toggle />
         </Navbar.Header>
         <Navbar.Collapse>
           <Nav pullRight>
