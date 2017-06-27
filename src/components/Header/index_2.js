@@ -9,6 +9,16 @@ import {
 import './header.css';
 
 class Header extends Component {
+  scrollUp() {
+    var doc = document.documentElement;
+    var top = (window.pageYOffset || doc.scrollTop) - (doc.clientTop || 0);
+
+    if(top > 0){
+      window.scrollTo(0, top - 15)
+      setTimeout(this.scrollUp, 10)
+    }
+  },
+
   render() {
     return (
 		  <Navbar inverse collapseOnSelect>
@@ -20,7 +30,7 @@ class Header extends Component {
         </Navbar.Header>
         <Navbar.Collapse>
           <Nav pullRight>
-            <NavItem eventKey={1} href="#aboutMe">/about</NavItem>
+            <NavItem eventKey={1} onClick={this.scrollUp}>/about</NavItem>
             <NavItem eventKey={2} href="https://dribbble.com/shots/3550308-DAMN/attachments/789463" alt="#" target="_blank" id="art-link">/art</NavItem>
             <NavDropdown 
               eventKey={3}
