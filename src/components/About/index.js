@@ -3,7 +3,6 @@ import { Grid, Row, Col } from 'react-bootstrap/lib';
 import './about.css';
 
 class About extends Component {
-
   render() {
     return (
     	<Grid className="about" id="aboutMe">
@@ -33,8 +32,7 @@ class About extends Component {
                     </div>
                 </Col>
             </Row>
-    	</Grid>
-    	
+    	</Grid>	
     );
   }
 }
