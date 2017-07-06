@@ -10,7 +10,7 @@ class Welcome extends Component {
       <div className="wrap">
         <div className="bg"></div>
         <div className="image-wrap">
-          <img className="top-image" src="https://s3-us-west-2.amazonaws.com/kendrickdamnproject/kendrick+lamar+damn/welcome-top.png" alt="#" />
+          <img className="top-image" src="http://i.imgur.com/pbFaZu6.png" alt="#" />
           <a href="/home"><h1>damn.</h1></a>
         </div>
         <script>FrontPage</script>

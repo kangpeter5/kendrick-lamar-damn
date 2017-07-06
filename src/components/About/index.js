@@ -10,7 +10,7 @@ class About extends Component {
     		<Row className="is-flex about-section">
     			<Col md={6} mdPush={6}>
     				<div className="about-image">
-			          <img className="kdot-img" src="https://s3-us-west-2.amazonaws.com/kendrickdamnproject/kendrick+lamar+damn/about-kendrick.jpg" alt="#" />
+			          <img className="kdot-img" src="http://i.imgur.com/2iO4peC.jpg" alt="#" />
 			        </div>
     			</Col>
     			<Col md={6} mdPull={6}>
