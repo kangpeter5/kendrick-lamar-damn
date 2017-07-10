@@ -12,6 +12,15 @@ nav.navbar {
     box-shadow: none;
     border: none;
 }
+.navbar-brand {
+    padding: 0px;
+}
+.navbar-brand>img {
+    height: 100%;
+    padding: 5px;
+    width: auto;
+    margin: 5px 10px;
+}
 .dropdown-menu{
 	display: block;
 	z-index: -1;

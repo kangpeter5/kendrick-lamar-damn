@@ -14,7 +14,7 @@ class Header extends Component {
 		  <Navbar inverse collapseOnSelect>
         <Navbar.Header>
           <Navbar.Brand>
-            <a href="/">K-DOT</a>
+            <a href="/"><img src="http://i.imgur.com/SUqWTlc.png" alt="K-DOT" /></a>
           </Navbar.Brand>
           <Navbar.Toggle />
         </Navbar.Header>
