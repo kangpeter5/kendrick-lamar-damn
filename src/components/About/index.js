@@ -6,7 +6,7 @@ class About extends Component {
   render() {
     return (
     	<Grid className="about" id="aboutMe">
-            <h2>Kendrick Lamar</h2>
+            <h2>The Story</h2>
     		<Row className="is-flex about-section">
     			<Col md={6} mdPush={6}>
     				<div className="about-image">
