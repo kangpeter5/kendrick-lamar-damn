@@ -111,18 +111,41 @@
 }
 /* END Scroll Button */
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1024px) {
+	p{
+		font-size: 1em;
+	}
 	.about-image{
 		margin: 10px auto;
 	}
 	.kdot-img{
 		max-height: 500px;
 	}
-	.scroll-btn a{
-		left: 48%;
-	}
 }
 @media only screen and (max-width: 992px) {
+	.container{
+		padding-left:0;
+		padding-right:0; 
+	}
+	.about {
+		height: 100%;
+	}
+	.about-desc {
+		padding: 0 50px;
+	}
+	.scroll-btn {
+		padding-bottom: 200px;
+	}
+	.scroll-btn a{
+		position: initial;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.container{
+	    padding-right: 15px;
+    	padding-left: 15px;
+	}
 	.about {
 		margin-top: 0;
 		margin-bottom: 100px;
@@ -137,6 +160,13 @@
 		padding: 0 50px;
 	}
 	.scroll-btn a{
-		left: 15%;
+		position: relative;
+		left: 0;
 	}
+}
+@media only screen and (max-width: 420px) {
+
+}
+@media only screen and (max-width: 320px) {
+
 }
