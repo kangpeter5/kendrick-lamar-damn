@@ -155,10 +155,10 @@ a {
 	}
 	h3,
 	p {
-		text-align: center;
 		text-shadow: 1px 1px #8c8c8c;
 	}
 	h3 {
+		text-align: center;
 		font-style: italic;
 	}
 	p {
