@@ -4,7 +4,7 @@ var lFollowX = 0,
     y = 0,
     friction = 1 / 20;
 
-function moveBackground() {
+(function moveBackground() {
   x += (lFollowX - x) * friction;
   y += (lFollowY - y) * friction;
   
@@ -17,7 +17,7 @@ function moveBackground() {
   });
 
   window.requestAnimationFrame(moveBackground);
-}
+})();
 
 $(window).on('mousemove click', function(e) {
 
@@ -27,5 +27,3 @@ $(window).on('mousemove click', function(e) {
   lFollowY = (10 * lMouseY) / 100;
 
 });
-
-moveBackground();
