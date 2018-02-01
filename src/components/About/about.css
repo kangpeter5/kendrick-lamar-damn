@@ -9,7 +9,6 @@
     text-decoration: none;
 }
 .about {
-	margin-top: 100px;
 	padding: 0;
 	height: 800px;
 }
@@ -22,7 +21,7 @@
 	margin: 10px auto;
 }
 .about-image {
-	border: 2px solid white;
+	border: 2px solid #ffffff;
     padding: 10px;
 }
 .kdot-img {
@@ -53,7 +52,7 @@
 	-webkit-transform: translate(0, -50%);
 	transform: translate(0, -50%);
 	color: #fff;
-	font : normal 400 20px/1 'Josefin Sans', sans-serif;
+	font: normal 400 20px/1 'Josefin Sans', sans-serif;
 	letter-spacing: .1em;
 	text-decoration: none;
 	transition: opacity .3s;
@@ -118,7 +117,7 @@
 @media only screen and (max-width: 992px) {
 	.container{
 		padding-left:0;
-		padding-right:0; 
+		padding-right:0;
 	}
 	.about {
 		height: 100%;

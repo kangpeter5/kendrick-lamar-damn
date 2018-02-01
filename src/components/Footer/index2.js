@@ -16,7 +16,6 @@ class Footer extends Component {
 	render() {
 	    return (
 	    	<footer>
-	    		<a className="move-top" onClick={this.scrollUp}>Scroll Up</a>
 	    		<p>&copy; <a href="http://www.petekang.com/" target="blank">Pete Kang</a> 2017</p>
 			</footer>
 	    );
